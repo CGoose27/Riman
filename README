@@ -1,0 +1,27 @@
+# PRESENT. 
+
+Riman is intended to be a mod manager & whatnot for Rimworld made in C!
+Why? I hate Python, and I want my stuff to load instantly. 
+
+This project might be abandoned quite quickly since I don't even play rimworld that much anymore buuut...
+
+Features:
+  Detect & list mods.
+
+
+# PLANAS.
+
+Features to be integrated for when I stop being lazy:
+
+Preboot Mod Manager.
+Genuine Features;
+  BetterMods:     ; New mod framework that will operate in C, excluding the C# Loader to improve load times & performance tremendously.
+  PreloadUI:      ; A nice GUI (likely in GTK, maybe ZTK) to interface libRiman.so (or Riman.dll on windows)
+
+Maintenance Settings;
+  OptimizeStruct: ; Optimize all XML structures by removing unneeded bytes to improve load times (whitespace)
+  OptimizeXML:    ; Hijack Rimworld's XML loader to store raw 'bin' files for all XML files in a single large bin file to skip xml decoding.
+  IHateGraphics:  ; Turns graphics 8bit. This is a joke I will add, since I'm curious on how much it'd effect ram use.
+
+Whole Changes;
+  RimC: ; Remake of rimworld base engine in raw C with hopes of optimization. Might create a VM to support old rimworld C# mods. Why? Rimworld on linux sucks!! So unstable.
