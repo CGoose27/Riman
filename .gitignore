@@ -5,4 +5,5 @@ CMakeFiles
 build
 .cache
 RimworldManager
-MakeFile
+Makefile
+.gitignore
