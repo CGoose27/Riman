@@ -1,0 +1,8 @@
+*.cmake
+*.so
+CMakeCache.txt
+CMakeFiles
+build
+.cache
+RimworldManager
+MakeFile
